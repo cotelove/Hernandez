@@ -4,43 +4,44 @@
 }
 
 body{
-	background:rgba(255,255,255,1);
-	color:rgba(25,25,25,1);
-	font-family: 'Poppins', sans-serif;
-	font-weight:300;
+	background: rgb(138, 90, 96);
+	color: rgb(80, 80, 80);
+	font-family: 'Amatic SC', cursive;
+	font-weight:400;
 }
 
 h1, h2, h3, h4{
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 
+	font-family:;
+	'Julius Sans One', sans-serif: initial;
+	font-weight: 700;
 }
 
 h1{
-	letter-spacing:0.1em;
-	color:rgba(255,255,255,0.9);
-	text-shadow: 1px 1px 0 #999;	
+	letter-spacing:0.6em;
+	color:rgba(128, 77, 77, 0.9);
+	text-shadow: 1px 1px 0 #947070;
 	text-align:center;
 }
 
 h2{
-	letter-spacing:0.02em; 
-	color:rgba(255,255,255,0.6); 
-	padding:0.2em 0; 
-	text-shadow: 1px 1px 0 #999;
-	text-align:center;		
+	letter-spacing: 0.09em;
+	color:rgba(251, 250, 250, 0.6);
+	padding:0.2em 0;
+	text-shadow: 1px 1px 0 #3e3636;
+	text-align:center;
 }
 
 h3{
-	letter-spacing:0.2em; 
-	color:rgba(0,0,0,.75); 
-	padding:2em 0 0.6em 0; 
-	text-shadow: 1px 1px 0 #ccc;
-	text-align:center;	
+	letter-spacing:0.2em;
+	color:rgba(125, 205, 210, 0.75);
+	padding:2em 0 0.6em 0;
+	text-shadow: 1px 1px 0 #4e3434;
+	text-align:center;
 }
 
 h4, h5, h6{
 	font-weight:left;
-	font-weight:600; 	
+	font-weight:600;
 }
 
 #contenido{width:98%; margin:1% auto;}
@@ -69,7 +70,7 @@ video{
 
 #somos{
 	width:100%;
-	background:rgb(250,250,250);
+	background:rgb(254,232,84);
 	margin-bottom:2%;
 	}
 
@@ -81,7 +82,7 @@ video{
 	}
 
 .dupla a{
-	color:rgba(255,0,0,0.75);
+	color: rgb(202, 109, 121);
 	text-decoration:none;
 	font-weight:700;
 }
@@ -94,8 +95,8 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
-	background-image:url('media/dupla-01.jpg');
+	background-color: rgba(231,240,239,1);
+	background-image:url('media/pasado.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -112,7 +113,7 @@ video{
 	min-height:300px;
 	text-align:right;
 	background-color:rgba(231,240,239,1);
-	background-image:url('media/dupla-02.jpg');
+	background-image:url('media/presente.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -154,15 +155,15 @@ video{
 }
 
 .item figure img{
-	width:100%; 
-	height:auto; 
+	width:100%;
+	height:auto;
 	margin-bottom:-4px;
 	filter: grayscale(1);
 }
 
 .item:hover figure img{
 	transform:scale(1.25);
-	filter: grayscale(0);	
+	filter: grayscale(0);
 	transition:all ease-out 0.5s;
 }
 
@@ -182,8 +183,8 @@ footer{
 	width:100%;
 	padding:3em 0 1em 0;
 	text-align:center;
-	font-family: 'Montserrat', sans-serif; 
-	font-weight:700; 	
+	font-family: 'Amatic SC', cursive;
+	font-weight:700;
 }
 
 footer p{
