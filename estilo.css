@@ -96,7 +96,7 @@ video{
 	min-height:300px;
 	text-align:left;
 	background-color: rgba(231,240,239,1);
-	background-image:url('media/pasado.jpg');
+	background-image:url('media/pasado.JPG');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -113,7 +113,7 @@ video{
 	min-height:300px;
 	text-align:right;
 	background-color:rgba(231,240,239,1);
-	background-image:url('media/presente.jpg');
+	background-image:url('media/presente.JPG');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
