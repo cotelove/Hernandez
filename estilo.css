@@ -70,7 +70,7 @@ video{
 
 #somos{
 	width:100%;
-	background:rgb(254,232,84);
+	background:rgb(254, 232, 84, 0);
 	margin-bottom:2%;
 	}
 
@@ -78,7 +78,7 @@ video{
 	width:46%;
 	padding:2%;
 	float:left;
-	background-color:red;
+	background-color:#ff000000
 	}
 
 .dupla a{
